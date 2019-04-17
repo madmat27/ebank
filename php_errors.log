@@ -1,0 +1,794 @@
+[10-Mar-2019 11:38:29 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/ebank/user.php on line 410
+[10-Mar-2019 12:58:14 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/ebank/test.php on line 55
+[10-Mar-2019 13:08:15 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/ebank/ebanking.php on line 31
+[10-Mar-2019 13:09:47 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/ebanking.php on line 13
+[10-Mar-2019 13:09:47 UTC] PHP Stack trace:
+[10-Mar-2019 13:09:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:09:47 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/ebank/ebanking.php:13
+[10-Mar-2019 13:09:47 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/ebank/ebanking.php on line 15
+[10-Mar-2019 13:09:47 UTC] PHP Stack trace:
+[10-Mar-2019 13:09:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:09:47 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/ebank/ebanking.php:15
+[10-Mar-2019 13:09:47 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/ebanking.php on line 36
+[10-Mar-2019 13:09:47 UTC] PHP Stack trace:
+[10-Mar-2019 13:09:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:09:47 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/ebank/ebanking.php:36
+[10-Mar-2019 13:10:05 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/ebanking.php on line 13
+[10-Mar-2019 13:10:05 UTC] PHP Stack trace:
+[10-Mar-2019 13:10:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:10:05 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/ebank/ebanking.php:13
+[10-Mar-2019 13:10:05 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/ebank/ebanking.php on line 15
+[10-Mar-2019 13:10:05 UTC] PHP Stack trace:
+[10-Mar-2019 13:10:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:10:05 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/ebank/ebanking.php:15
+[10-Mar-2019 13:10:05 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/ebanking.php on line 36
+[10-Mar-2019 13:10:05 UTC] PHP Stack trace:
+[10-Mar-2019 13:10:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:10:05 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/ebank/ebanking.php:36
+[10-Mar-2019 13:19:38 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 10
+[10-Mar-2019 13:19:38 UTC] PHP Stack trace:
+[10-Mar-2019 13:19:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:19:38 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:19:38 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/ebank/scripts/functionlib.php:10
+[10-Mar-2019 13:19:38 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 12
+[10-Mar-2019 13:19:38 UTC] PHP Stack trace:
+[10-Mar-2019 13:19:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:19:38 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:19:38 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/ebank/scripts/functionlib.php:12
+[10-Mar-2019 13:19:38 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 30
+[10-Mar-2019 13:19:38 UTC] PHP Stack trace:
+[10-Mar-2019 13:19:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:19:38 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:19:38 UTC] PHP   3. session_destroy() /home/ubuntu/workspace/ebank/scripts/functionlib.php:30
+[10-Mar-2019 13:19:38 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 33
+[10-Mar-2019 13:19:38 UTC] PHP Stack trace:
+[10-Mar-2019 13:19:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:19:38 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:19:38 UTC] PHP   3. mysqli_close() /home/ubuntu/workspace/ebank/scripts/functionlib.php:33
+[10-Mar-2019 13:19:51 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 10
+[10-Mar-2019 13:19:51 UTC] PHP Stack trace:
+[10-Mar-2019 13:19:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:19:51 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:19:51 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/ebank/scripts/functionlib.php:10
+[10-Mar-2019 13:19:51 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 12
+[10-Mar-2019 13:19:51 UTC] PHP Stack trace:
+[10-Mar-2019 13:19:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:19:51 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:19:51 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/ebank/scripts/functionlib.php:12
+[10-Mar-2019 13:19:51 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 30
+[10-Mar-2019 13:19:51 UTC] PHP Stack trace:
+[10-Mar-2019 13:19:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:19:51 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:19:51 UTC] PHP   3. session_destroy() /home/ubuntu/workspace/ebank/scripts/functionlib.php:30
+[10-Mar-2019 13:19:51 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 33
+[10-Mar-2019 13:19:51 UTC] PHP Stack trace:
+[10-Mar-2019 13:19:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:19:51 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:19:51 UTC] PHP   3. mysqli_close() /home/ubuntu/workspace/ebank/scripts/functionlib.php:33
+[10-Mar-2019 13:20:00 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 10
+[10-Mar-2019 13:20:00 UTC] PHP Stack trace:
+[10-Mar-2019 13:20:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:20:00 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:20:00 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/ebank/scripts/functionlib.php:10
+[10-Mar-2019 13:20:00 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 12
+[10-Mar-2019 13:20:00 UTC] PHP Stack trace:
+[10-Mar-2019 13:20:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:20:00 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:20:00 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/ebank/scripts/functionlib.php:12
+[10-Mar-2019 13:20:00 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 30
+[10-Mar-2019 13:20:00 UTC] PHP Stack trace:
+[10-Mar-2019 13:20:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:20:00 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:20:00 UTC] PHP   3. session_destroy() /home/ubuntu/workspace/ebank/scripts/functionlib.php:30
+[10-Mar-2019 13:20:00 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 33
+[10-Mar-2019 13:20:00 UTC] PHP Stack trace:
+[10-Mar-2019 13:20:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:20:00 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:20:00 UTC] PHP   3. mysqli_close() /home/ubuntu/workspace/ebank/scripts/functionlib.php:33
+[10-Mar-2019 13:20:22 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 10
+[10-Mar-2019 13:20:22 UTC] PHP Stack trace:
+[10-Mar-2019 13:20:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:20:22 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:20:22 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/ebank/scripts/functionlib.php:10
+[10-Mar-2019 13:20:22 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 12
+[10-Mar-2019 13:20:22 UTC] PHP Stack trace:
+[10-Mar-2019 13:20:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:20:22 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:20:22 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/ebank/scripts/functionlib.php:12
+[10-Mar-2019 13:20:22 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 30
+[10-Mar-2019 13:20:22 UTC] PHP Stack trace:
+[10-Mar-2019 13:20:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:20:22 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:20:22 UTC] PHP   3. session_destroy() /home/ubuntu/workspace/ebank/scripts/functionlib.php:30
+[10-Mar-2019 13:20:22 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 33
+[10-Mar-2019 13:20:22 UTC] PHP Stack trace:
+[10-Mar-2019 13:20:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:20:22 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:20:22 UTC] PHP   3. mysqli_close() /home/ubuntu/workspace/ebank/scripts/functionlib.php:33
+[10-Mar-2019 13:25:09 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 10
+[10-Mar-2019 13:25:09 UTC] PHP Stack trace:
+[10-Mar-2019 13:25:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:25:09 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:25:09 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/ebank/scripts/functionlib.php:10
+[10-Mar-2019 13:25:09 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 12
+[10-Mar-2019 13:25:09 UTC] PHP Stack trace:
+[10-Mar-2019 13:25:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:25:09 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:25:09 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/ebank/scripts/functionlib.php:12
+[10-Mar-2019 13:25:09 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 35
+[10-Mar-2019 13:25:09 UTC] PHP Stack trace:
+[10-Mar-2019 13:25:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:25:09 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:25:09 UTC] PHP   3. mysqli_close() /home/ubuntu/workspace/ebank/scripts/functionlib.php:35
+[10-Mar-2019 13:25:21 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 10
+[10-Mar-2019 13:25:21 UTC] PHP Stack trace:
+[10-Mar-2019 13:25:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:25:21 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:25:21 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/ebank/scripts/functionlib.php:10
+[10-Mar-2019 13:25:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 12
+[10-Mar-2019 13:25:21 UTC] PHP Stack trace:
+[10-Mar-2019 13:25:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:25:21 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:25:21 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/ebank/scripts/functionlib.php:12
+[10-Mar-2019 13:25:21 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 35
+[10-Mar-2019 13:25:21 UTC] PHP Stack trace:
+[10-Mar-2019 13:25:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:25:21 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:25:21 UTC] PHP   3. mysqli_close() /home/ubuntu/workspace/ebank/scripts/functionlib.php:35
+[10-Mar-2019 13:25:29 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 10
+[10-Mar-2019 13:25:29 UTC] PHP Stack trace:
+[10-Mar-2019 13:25:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:25:29 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:25:29 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/ebank/scripts/functionlib.php:10
+[10-Mar-2019 13:25:29 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 12
+[10-Mar-2019 13:25:29 UTC] PHP Stack trace:
+[10-Mar-2019 13:25:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:25:29 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:25:29 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/ebank/scripts/functionlib.php:12
+[10-Mar-2019 13:25:29 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 35
+[10-Mar-2019 13:25:29 UTC] PHP Stack trace:
+[10-Mar-2019 13:25:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:25:29 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:25:29 UTC] PHP   3. mysqli_close() /home/ubuntu/workspace/ebank/scripts/functionlib.php:35
+[10-Mar-2019 13:25:46 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 10
+[10-Mar-2019 13:25:46 UTC] PHP Stack trace:
+[10-Mar-2019 13:25:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:25:46 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:25:46 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/ebank/scripts/functionlib.php:10
+[10-Mar-2019 13:25:46 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 12
+[10-Mar-2019 13:25:46 UTC] PHP Stack trace:
+[10-Mar-2019 13:25:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:25:46 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:25:46 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/ebank/scripts/functionlib.php:12
+[10-Mar-2019 13:25:46 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 35
+[10-Mar-2019 13:25:46 UTC] PHP Stack trace:
+[10-Mar-2019 13:25:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:25:46 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:25:46 UTC] PHP   3. mysqli_close() /home/ubuntu/workspace/ebank/scripts/functionlib.php:35
+[10-Mar-2019 13:26:21 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 10
+[10-Mar-2019 13:26:21 UTC] PHP Stack trace:
+[10-Mar-2019 13:26:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:26:21 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:26:21 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/ebank/scripts/functionlib.php:10
+[10-Mar-2019 13:26:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 12
+[10-Mar-2019 13:26:21 UTC] PHP Stack trace:
+[10-Mar-2019 13:26:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:26:21 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:26:21 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/ebank/scripts/functionlib.php:12
+[10-Mar-2019 13:26:21 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 35
+[10-Mar-2019 13:26:21 UTC] PHP Stack trace:
+[10-Mar-2019 13:26:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:26:21 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:26:21 UTC] PHP   3. mysqli_close() /home/ubuntu/workspace/ebank/scripts/functionlib.php:35
+[10-Mar-2019 13:27:21 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 11
+[10-Mar-2019 13:27:21 UTC] PHP Stack trace:
+[10-Mar-2019 13:27:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:27:21 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:27:21 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/ebank/scripts/functionlib.php:11
+[10-Mar-2019 13:27:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 13
+[10-Mar-2019 13:27:21 UTC] PHP Stack trace:
+[10-Mar-2019 13:27:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:27:21 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:27:21 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/ebank/scripts/functionlib.php:13
+[10-Mar-2019 13:27:21 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 36
+[10-Mar-2019 13:27:21 UTC] PHP Stack trace:
+[10-Mar-2019 13:27:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:27:21 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:27:21 UTC] PHP   3. mysqli_close() /home/ubuntu/workspace/ebank/scripts/functionlib.php:36
+[10-Mar-2019 13:27:43 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 11
+[10-Mar-2019 13:27:43 UTC] PHP Stack trace:
+[10-Mar-2019 13:27:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:27:43 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:27:43 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/ebank/scripts/functionlib.php:11
+[10-Mar-2019 13:27:43 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 13
+[10-Mar-2019 13:27:43 UTC] PHP Stack trace:
+[10-Mar-2019 13:27:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:27:43 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:27:43 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/ebank/scripts/functionlib.php:13
+[10-Mar-2019 13:27:43 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 36
+[10-Mar-2019 13:27:43 UTC] PHP Stack trace:
+[10-Mar-2019 13:27:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:27:43 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:27:43 UTC] PHP   3. mysqli_close() /home/ubuntu/workspace/ebank/scripts/functionlib.php:36
+[10-Mar-2019 13:29:28 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 16
+[10-Mar-2019 13:29:28 UTC] PHP Stack trace:
+[10-Mar-2019 13:29:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:29:28 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:29:28 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/ebank/scripts/functionlib.php:16
+[10-Mar-2019 13:29:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 18
+[10-Mar-2019 13:29:28 UTC] PHP Stack trace:
+[10-Mar-2019 13:29:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:29:28 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:29:28 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/ebank/scripts/functionlib.php:18
+[10-Mar-2019 13:29:28 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 41
+[10-Mar-2019 13:29:28 UTC] PHP Stack trace:
+[10-Mar-2019 13:29:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:29:28 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:29:28 UTC] PHP   3. mysqli_close() /home/ubuntu/workspace/ebank/scripts/functionlib.php:41
+[10-Mar-2019 13:32:35 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 11
+[10-Mar-2019 13:32:35 UTC] PHP Stack trace:
+[10-Mar-2019 13:32:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:32:35 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:32:35 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/ebank/scripts/functionlib.php:11
+[10-Mar-2019 13:32:35 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 13
+[10-Mar-2019 13:32:35 UTC] PHP Stack trace:
+[10-Mar-2019 13:32:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:32:35 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:32:35 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/ebank/scripts/functionlib.php:13
+[10-Mar-2019 13:32:35 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 41
+[10-Mar-2019 13:32:35 UTC] PHP Stack trace:
+[10-Mar-2019 13:32:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[10-Mar-2019 13:32:35 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:40
+[10-Mar-2019 13:32:35 UTC] PHP   3. mysqli_close() /home/ubuntu/workspace/ebank/scripts/functionlib.php:41
+[10-Mar-2019 14:09:42 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/ebank/index.php on line 3
+[10-Mar-2019 14:09:42 UTC] PHP Stack trace:
+[10-Mar-2019 14:09:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/index.php:0
+[10-Mar-2019 14:09:42 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/ebank/index.php:3
+[11-Mar-2019 09:51:23 UTC] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 28
+[11-Mar-2019 09:51:23 UTC] PHP Stack trace:
+[11-Mar-2019 09:51:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/user.php:0
+[11-Mar-2019 09:51:23 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/user.php:5
+[11-Mar-2019 09:51:23 UTC] PHP   3. mysqli_set_charset() /home/ubuntu/workspace/ebank/scripts/functionlib.php:28
+[11-Mar-2019 09:51:23 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 37
+[11-Mar-2019 09:51:23 UTC] PHP Stack trace:
+[11-Mar-2019 09:51:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/user.php:0
+[11-Mar-2019 09:51:23 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/user.php:5
+[11-Mar-2019 09:51:23 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/ebank/scripts/functionlib.php:37
+[11-Mar-2019 09:51:23 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 39
+[11-Mar-2019 09:51:23 UTC] PHP Stack trace:
+[11-Mar-2019 09:51:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/user.php:0
+[11-Mar-2019 09:51:23 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/user.php:5
+[11-Mar-2019 09:51:23 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/ebank/scripts/functionlib.php:39
+[11-Mar-2019 09:51:23 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 63
+[11-Mar-2019 09:51:23 UTC] PHP Stack trace:
+[11-Mar-2019 09:51:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/user.php:0
+[11-Mar-2019 09:51:23 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/user.php:5
+[11-Mar-2019 09:51:23 UTC] PHP   3. mysqli_close() /home/ubuntu/workspace/ebank/scripts/functionlib.php:63
+[11-Mar-2019 09:51:32 UTC] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 28
+[11-Mar-2019 09:51:32 UTC] PHP Stack trace:
+[11-Mar-2019 09:51:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[11-Mar-2019 09:51:32 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:5
+[11-Mar-2019 09:51:32 UTC] PHP   3. mysqli_set_charset() /home/ubuntu/workspace/ebank/scripts/functionlib.php:28
+[11-Mar-2019 09:51:32 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 37
+[11-Mar-2019 09:51:32 UTC] PHP Stack trace:
+[11-Mar-2019 09:51:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[11-Mar-2019 09:51:32 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:5
+[11-Mar-2019 09:51:32 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/ebank/scripts/functionlib.php:37
+[11-Mar-2019 09:51:32 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 39
+[11-Mar-2019 09:51:32 UTC] PHP Stack trace:
+[11-Mar-2019 09:51:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[11-Mar-2019 09:51:32 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:5
+[11-Mar-2019 09:51:32 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/ebank/scripts/functionlib.php:39
+[11-Mar-2019 09:51:32 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 63
+[11-Mar-2019 09:51:32 UTC] PHP Stack trace:
+[11-Mar-2019 09:51:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[11-Mar-2019 09:51:32 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:5
+[11-Mar-2019 09:51:32 UTC] PHP   3. mysqli_close() /home/ubuntu/workspace/ebank/scripts/functionlib.php:63
+[11-Mar-2019 09:51:44 UTC] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 28
+[11-Mar-2019 09:51:44 UTC] PHP Stack trace:
+[11-Mar-2019 09:51:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[11-Mar-2019 09:51:44 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:5
+[11-Mar-2019 09:51:44 UTC] PHP   3. mysqli_set_charset() /home/ubuntu/workspace/ebank/scripts/functionlib.php:28
+[11-Mar-2019 09:51:44 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 37
+[11-Mar-2019 09:51:44 UTC] PHP Stack trace:
+[11-Mar-2019 09:51:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[11-Mar-2019 09:51:44 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:5
+[11-Mar-2019 09:51:44 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/ebank/scripts/functionlib.php:37
+[11-Mar-2019 09:51:44 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 39
+[11-Mar-2019 09:51:44 UTC] PHP Stack trace:
+[11-Mar-2019 09:51:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[11-Mar-2019 09:51:44 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:5
+[11-Mar-2019 09:51:44 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/ebank/scripts/functionlib.php:39
+[11-Mar-2019 09:51:44 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 63
+[11-Mar-2019 09:51:44 UTC] PHP Stack trace:
+[11-Mar-2019 09:51:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[11-Mar-2019 09:51:44 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:5
+[11-Mar-2019 09:51:44 UTC] PHP   3. mysqli_close() /home/ubuntu/workspace/ebank/scripts/functionlib.php:63
+[11-Mar-2019 09:54:31 UTC] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 28
+[11-Mar-2019 09:54:31 UTC] PHP Stack trace:
+[11-Mar-2019 09:54:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[11-Mar-2019 09:54:31 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:5
+[11-Mar-2019 09:54:31 UTC] PHP   3. mysqli_set_charset() /home/ubuntu/workspace/ebank/scripts/functionlib.php:28
+[11-Mar-2019 09:54:31 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 37
+[11-Mar-2019 09:54:31 UTC] PHP Stack trace:
+[11-Mar-2019 09:54:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[11-Mar-2019 09:54:31 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:5
+[11-Mar-2019 09:54:31 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/ebank/scripts/functionlib.php:37
+[11-Mar-2019 09:54:31 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 39
+[11-Mar-2019 09:54:31 UTC] PHP Stack trace:
+[11-Mar-2019 09:54:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[11-Mar-2019 09:54:31 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:5
+[11-Mar-2019 09:54:31 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/ebank/scripts/functionlib.php:39
+[11-Mar-2019 09:54:31 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 63
+[11-Mar-2019 09:54:31 UTC] PHP Stack trace:
+[11-Mar-2019 09:54:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[11-Mar-2019 09:54:31 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:5
+[11-Mar-2019 09:54:31 UTC] PHP   3. mysqli_close() /home/ubuntu/workspace/ebank/scripts/functionlib.php:63
+[11-Mar-2019 09:55:45 UTC] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 28
+[11-Mar-2019 09:55:45 UTC] PHP Stack trace:
+[11-Mar-2019 09:55:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[11-Mar-2019 09:55:45 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:5
+[11-Mar-2019 09:55:45 UTC] PHP   3. mysqli_set_charset() /home/ubuntu/workspace/ebank/scripts/functionlib.php:28
+[11-Mar-2019 09:55:45 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 37
+[11-Mar-2019 09:55:45 UTC] PHP Stack trace:
+[11-Mar-2019 09:55:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[11-Mar-2019 09:55:45 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:5
+[11-Mar-2019 09:55:45 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/ebank/scripts/functionlib.php:37
+[11-Mar-2019 09:55:45 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 39
+[11-Mar-2019 09:55:45 UTC] PHP Stack trace:
+[11-Mar-2019 09:55:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[11-Mar-2019 09:55:45 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:5
+[11-Mar-2019 09:55:45 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/ebank/scripts/functionlib.php:39
+[11-Mar-2019 09:55:45 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 63
+[11-Mar-2019 09:55:45 UTC] PHP Stack trace:
+[11-Mar-2019 09:55:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[11-Mar-2019 09:55:45 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:5
+[11-Mar-2019 09:55:45 UTC] PHP   3. mysqli_close() /home/ubuntu/workspace/ebank/scripts/functionlib.php:63
+[11-Mar-2019 09:59:34 UTC] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 28
+[11-Mar-2019 09:59:34 UTC] PHP Stack trace:
+[11-Mar-2019 09:59:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[11-Mar-2019 09:59:34 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:5
+[11-Mar-2019 09:59:34 UTC] PHP   3. mysqli_set_charset() /home/ubuntu/workspace/ebank/scripts/functionlib.php:28
+[11-Mar-2019 09:59:34 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 37
+[11-Mar-2019 09:59:34 UTC] PHP Stack trace:
+[11-Mar-2019 09:59:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[11-Mar-2019 09:59:34 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:5
+[11-Mar-2019 09:59:34 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/ebank/scripts/functionlib.php:37
+[11-Mar-2019 09:59:34 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 39
+[11-Mar-2019 09:59:34 UTC] PHP Stack trace:
+[11-Mar-2019 09:59:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[11-Mar-2019 09:59:34 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:5
+[11-Mar-2019 09:59:34 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/ebank/scripts/functionlib.php:39
+[11-Mar-2019 09:59:34 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 63
+[11-Mar-2019 09:59:34 UTC] PHP Stack trace:
+[11-Mar-2019 09:59:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[11-Mar-2019 09:59:34 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:5
+[11-Mar-2019 09:59:34 UTC] PHP   3. mysqli_close() /home/ubuntu/workspace/ebank/scripts/functionlib.php:63
+[11-Mar-2019 10:00:09 UTC] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 28
+[11-Mar-2019 10:00:09 UTC] PHP Stack trace:
+[11-Mar-2019 10:00:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[11-Mar-2019 10:00:09 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:5
+[11-Mar-2019 10:00:09 UTC] PHP   3. mysqli_set_charset() /home/ubuntu/workspace/ebank/scripts/functionlib.php:28
+[11-Mar-2019 10:00:09 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 37
+[11-Mar-2019 10:00:09 UTC] PHP Stack trace:
+[11-Mar-2019 10:00:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[11-Mar-2019 10:00:09 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:5
+[11-Mar-2019 10:00:09 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/ebank/scripts/functionlib.php:37
+[11-Mar-2019 10:00:09 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 39
+[11-Mar-2019 10:00:09 UTC] PHP Stack trace:
+[11-Mar-2019 10:00:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[11-Mar-2019 10:00:09 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:5
+[11-Mar-2019 10:00:09 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/ebank/scripts/functionlib.php:39
+[11-Mar-2019 10:00:09 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 63
+[11-Mar-2019 10:00:09 UTC] PHP Stack trace:
+[11-Mar-2019 10:00:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[11-Mar-2019 10:00:09 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:5
+[11-Mar-2019 10:00:09 UTC] PHP   3. mysqli_close() /home/ubuntu/workspace/ebank/scripts/functionlib.php:63
+[11-Mar-2019 10:00:40 UTC] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 28
+[11-Mar-2019 10:00:40 UTC] PHP Stack trace:
+[11-Mar-2019 10:00:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[11-Mar-2019 10:00:40 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:5
+[11-Mar-2019 10:00:40 UTC] PHP   3. mysqli_set_charset() /home/ubuntu/workspace/ebank/scripts/functionlib.php:28
+[11-Mar-2019 10:00:40 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 37
+[11-Mar-2019 10:00:40 UTC] PHP Stack trace:
+[11-Mar-2019 10:00:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[11-Mar-2019 10:00:40 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:5
+[11-Mar-2019 10:00:40 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/ebank/scripts/functionlib.php:37
+[11-Mar-2019 10:00:40 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 39
+[11-Mar-2019 10:00:40 UTC] PHP Stack trace:
+[11-Mar-2019 10:00:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[11-Mar-2019 10:00:40 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:5
+[11-Mar-2019 10:00:40 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/ebank/scripts/functionlib.php:39
+[11-Mar-2019 10:00:40 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 63
+[11-Mar-2019 10:00:40 UTC] PHP Stack trace:
+[11-Mar-2019 10:00:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[11-Mar-2019 10:00:40 UTC] PHP   2. userValidate() /home/ubuntu/workspace/ebank/ebanking.php:5
+[11-Mar-2019 10:00:40 UTC] PHP   3. mysqli_close() /home/ubuntu/workspace/ebank/scripts/functionlib.php:63
+[11-Mar-2019 10:07:05 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ubuntu/workspace/ebank/scripts/functionlib.php on line 65
+[11-Mar-2019 10:07:05 UTC] PHP Stack trace:
+[11-Mar-2019 10:07:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[11-Mar-2019 10:07:27 UTC] PHP Fatal error:  Call to undefined function userValidate() in /home/ubuntu/workspace/ebank/ebanking.php on line 5
+[11-Mar-2019 10:07:27 UTC] PHP Stack trace:
+[11-Mar-2019 10:07:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[11-Mar-2019 19:11:15 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/ebank/ebanking.php on line 46
+[16-Mar-2019 19:43:34 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/ebank/accounts.php on line 105
+[16-Mar-2019 19:43:47 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/ebank/accounts.php on line 50
+[16-Mar-2019 19:43:47 UTC] PHP Stack trace:
+[16-Mar-2019 19:43:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/accounts.php:0
+[16-Mar-2019 19:43:47 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/ebank/accounts.php:50
+[16-Mar-2019 19:45:33 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/ebank/accounts.php on line 51
+[16-Mar-2019 19:45:33 UTC] PHP Stack trace:
+[16-Mar-2019 19:45:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/accounts.php:0
+[16-Mar-2019 19:45:33 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/ebank/accounts.php:51
+[16-Mar-2019 22:21:12 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/ebank/accounts.php on line 51
+[16-Mar-2019 22:21:12 UTC] PHP Stack trace:
+[16-Mar-2019 22:21:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/accounts.php:0
+[16-Mar-2019 22:21:12 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/ebank/accounts.php:51
+[16-Mar-2019 22:30:17 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/ebank/accounts.php on line 51
+[16-Mar-2019 22:30:17 UTC] PHP Stack trace:
+[16-Mar-2019 22:30:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/accounts.php:0
+[16-Mar-2019 22:30:17 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/ebank/accounts.php:51
+[17-Mar-2019 12:47:11 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/ebank/accounts.php on line 51
+[17-Mar-2019 12:47:11 UTC] PHP Stack trace:
+[17-Mar-2019 12:47:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/accounts.php:0
+[17-Mar-2019 12:47:11 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/ebank/accounts.php:51
+[17-Mar-2019 12:49:01 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/ebank/accounts.php on line 51
+[17-Mar-2019 12:49:01 UTC] PHP Stack trace:
+[17-Mar-2019 12:49:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/accounts.php:0
+[17-Mar-2019 12:49:01 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/ebank/accounts.php:51
+[17-Mar-2019 12:49:27 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/ebank/DBtesting.php on line 51
+[17-Mar-2019 12:49:27 UTC] PHP Stack trace:
+[17-Mar-2019 12:49:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/DBtesting.php:0
+[17-Mar-2019 12:49:27 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/ebank/DBtesting.php:51
+[17-Mar-2019 12:50:13 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE), expecting ')' in /home/ubuntu/workspace/ebank/DBtesting.php on line 57
+[17-Mar-2019 12:51:20 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/ebank/DBtesting.php on line 418
+[17-Mar-2019 12:53:25 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/ebank/accounts.php on line 51
+[17-Mar-2019 12:53:25 UTC] PHP Stack trace:
+[17-Mar-2019 12:53:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/accounts.php:0
+[17-Mar-2019 12:53:25 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/ebank/accounts.php:51
+[17-Mar-2019 12:53:46 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/ebank/accounts.php on line 51
+[17-Mar-2019 12:53:46 UTC] PHP Stack trace:
+[17-Mar-2019 12:53:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/accounts.php:0
+[17-Mar-2019 12:53:46 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/ebank/accounts.php:51
+[17-Mar-2019 12:54:16 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/ebank/accounts.php on line 51
+[17-Mar-2019 12:54:16 UTC] PHP Stack trace:
+[17-Mar-2019 12:54:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/accounts.php:0
+[17-Mar-2019 12:54:16 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/ebank/accounts.php:51
+[17-Mar-2019 12:54:33 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/ebank/accounts.php on line 51
+[17-Mar-2019 12:54:33 UTC] PHP Stack trace:
+[17-Mar-2019 12:54:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/accounts.php:0
+[17-Mar-2019 12:54:33 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/ebank/accounts.php:51
+[17-Mar-2019 12:54:53 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/ebank/accounts.php on line 51
+[17-Mar-2019 12:54:53 UTC] PHP Stack trace:
+[17-Mar-2019 12:54:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/accounts.php:0
+[17-Mar-2019 12:54:53 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/ebank/accounts.php:51
+[17-Mar-2019 12:56:21 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/ebank/accounts.php on line 51
+[17-Mar-2019 12:56:21 UTC] PHP Stack trace:
+[17-Mar-2019 12:56:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/accounts.php:0
+[17-Mar-2019 12:56:21 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/ebank/accounts.php:51
+[17-Mar-2019 12:56:46 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/ebank/accounts.php on line 51
+[17-Mar-2019 12:56:46 UTC] PHP Stack trace:
+[17-Mar-2019 12:56:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/accounts.php:0
+[17-Mar-2019 12:56:46 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/ebank/accounts.php:51
+[17-Mar-2019 12:57:14 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/ebank/accounts.php on line 51
+[17-Mar-2019 12:57:14 UTC] PHP Stack trace:
+[17-Mar-2019 12:57:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/accounts.php:0
+[17-Mar-2019 12:57:14 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/ebank/accounts.php:51
+[17-Mar-2019 12:58:11 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/ebank/accounts.php on line 51
+[17-Mar-2019 12:58:11 UTC] PHP Stack trace:
+[17-Mar-2019 12:58:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/accounts.php:0
+[17-Mar-2019 12:58:11 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/ebank/accounts.php:51
+[17-Mar-2019 12:58:39 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/ebank/accounts.php on line 51
+[17-Mar-2019 12:58:39 UTC] PHP Stack trace:
+[17-Mar-2019 12:58:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/accounts.php:0
+[17-Mar-2019 12:58:39 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/ebank/accounts.php:51
+[17-Mar-2019 13:00:23 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/ebank/accounts.php on line 51
+[17-Mar-2019 13:00:23 UTC] PHP Stack trace:
+[17-Mar-2019 13:00:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/accounts.php:0
+[17-Mar-2019 13:00:23 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/ebank/accounts.php:51
+[17-Mar-2019 14:21:10 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/ubuntu/workspace/ebank/DBtesting.php on line 234
+[17-Mar-2019 14:21:10 UTC] PHP Stack trace:
+[17-Mar-2019 14:21:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/DBtesting.php:0
+[17-Mar-2019 14:21:10 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/ebank/DBtesting.php:234
+[17-Mar-2019 14:21:10 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/ebank/DBtesting.php on line 236
+[17-Mar-2019 14:21:10 UTC] PHP Stack trace:
+[17-Mar-2019 14:21:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/DBtesting.php:0
+[17-Mar-2019 14:21:10 UTC] PHP   2. mysqli_fetch_row() /home/ubuntu/workspace/ebank/DBtesting.php:236
+[17-Mar-2019 14:21:49 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/ubuntu/workspace/ebank/DBtesting.php on line 234
+[17-Mar-2019 14:21:49 UTC] PHP Stack trace:
+[17-Mar-2019 14:21:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/DBtesting.php:0
+[17-Mar-2019 14:21:49 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/ebank/DBtesting.php:234
+[17-Mar-2019 14:21:49 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/ebank/DBtesting.php on line 236
+[17-Mar-2019 14:21:49 UTC] PHP Stack trace:
+[17-Mar-2019 14:21:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/DBtesting.php:0
+[17-Mar-2019 14:21:49 UTC] PHP   2. mysqli_fetch_row() /home/ubuntu/workspace/ebank/DBtesting.php:236
+[17-Mar-2019 14:23:00 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/ebank/accounts.php on line 51
+[17-Mar-2019 14:23:00 UTC] PHP Stack trace:
+[17-Mar-2019 14:23:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/accounts.php:0
+[17-Mar-2019 14:23:00 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/ebank/accounts.php:51
+[17-Mar-2019 15:12:25 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/ebank/DBtesting.php on line 251
+[19-Mar-2019 10:41:27 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/ebank/removeaccount.php on line 321
+[19-Mar-2019 12:30:20 UTC] PHP Parse error:  syntax error, unexpected '$iban' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/ebank/removeaccount.php on line 232
+[19-Mar-2019 13:13:24 UTC] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home/ubuntu/workspace/ebank/removeaccount.php on line 238
+[19-Mar-2019 13:14:02 UTC] PHP Fatal error:  Call to undefined function isSelected() in /home/ubuntu/workspace/ebank/removeaccount.php on line 238
+[19-Mar-2019 13:14:02 UTC] PHP Stack trace:
+[19-Mar-2019 13:14:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/removeaccount.php:0
+[19-Mar-2019 13:22:52 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE) in /home/ubuntu/workspace/ebank/removeaccount.php on line 240
+[19-Mar-2019 14:03:35 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/ebank/removeaccount.php on line 221
+[19-Mar-2019 14:07:41 UTC] PHP Parse error:  syntax error, unexpected 'style' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/ebank/removeaccount.php on line 221
+[19-Mar-2019 14:07:50 UTC] PHP Parse error:  syntax error, unexpected 'style' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/ebank/removeaccount.php on line 221
+[19-Mar-2019 21:45:15 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, string given in /home/ubuntu/workspace/ebank/ebanking.php on line 233
+[19-Mar-2019 21:45:15 UTC] PHP Stack trace:
+[19-Mar-2019 21:45:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[19-Mar-2019 21:45:15 UTC] PHP   2. date_format() /home/ubuntu/workspace/ebank/ebanking.php:233
+[19-Mar-2019 21:45:15 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, string given in /home/ubuntu/workspace/ebank/ebanking.php on line 233
+[19-Mar-2019 21:45:15 UTC] PHP Stack trace:
+[19-Mar-2019 21:45:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[19-Mar-2019 21:45:15 UTC] PHP   2. date_format() /home/ubuntu/workspace/ebank/ebanking.php:233
+[19-Mar-2019 21:45:15 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, string given in /home/ubuntu/workspace/ebank/ebanking.php on line 233
+[19-Mar-2019 21:45:15 UTC] PHP Stack trace:
+[19-Mar-2019 21:45:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[19-Mar-2019 21:45:15 UTC] PHP   2. date_format() /home/ubuntu/workspace/ebank/ebanking.php:233
+[19-Mar-2019 21:45:15 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, string given in /home/ubuntu/workspace/ebank/ebanking.php on line 233
+[19-Mar-2019 21:45:15 UTC] PHP Stack trace:
+[19-Mar-2019 21:45:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[19-Mar-2019 21:45:15 UTC] PHP   2. date_format() /home/ubuntu/workspace/ebank/ebanking.php:233
+[19-Mar-2019 21:47:05 UTC] PHP Warning:  date() expects parameter 2 to be long, string given in /home/ubuntu/workspace/ebank/ebanking.php on line 233
+[19-Mar-2019 21:47:05 UTC] PHP Stack trace:
+[19-Mar-2019 21:47:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[19-Mar-2019 21:47:05 UTC] PHP   2. date() /home/ubuntu/workspace/ebank/ebanking.php:233
+[19-Mar-2019 21:47:05 UTC] PHP Warning:  date() expects parameter 2 to be long, string given in /home/ubuntu/workspace/ebank/ebanking.php on line 233
+[19-Mar-2019 21:47:05 UTC] PHP Stack trace:
+[19-Mar-2019 21:47:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[19-Mar-2019 21:47:05 UTC] PHP   2. date() /home/ubuntu/workspace/ebank/ebanking.php:233
+[19-Mar-2019 21:47:05 UTC] PHP Warning:  date() expects parameter 2 to be long, string given in /home/ubuntu/workspace/ebank/ebanking.php on line 233
+[19-Mar-2019 21:47:05 UTC] PHP Stack trace:
+[19-Mar-2019 21:47:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[19-Mar-2019 21:47:05 UTC] PHP   2. date() /home/ubuntu/workspace/ebank/ebanking.php:233
+[19-Mar-2019 21:47:05 UTC] PHP Warning:  date() expects parameter 2 to be long, string given in /home/ubuntu/workspace/ebank/ebanking.php on line 233
+[19-Mar-2019 21:47:05 UTC] PHP Stack trace:
+[19-Mar-2019 21:47:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[19-Mar-2019 21:47:05 UTC] PHP   2. date() /home/ubuntu/workspace/ebank/ebanking.php:233
+[19-Mar-2019 21:48:58 UTC] PHP Warning:  date() expects parameter 2 to be long, string given in /home/ubuntu/workspace/ebank/ebanking.php on line 233
+[19-Mar-2019 21:48:58 UTC] PHP Stack trace:
+[19-Mar-2019 21:48:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[19-Mar-2019 21:48:58 UTC] PHP   2. date() /home/ubuntu/workspace/ebank/ebanking.php:233
+[19-Mar-2019 21:48:58 UTC] PHP Warning:  date() expects parameter 2 to be long, string given in /home/ubuntu/workspace/ebank/ebanking.php on line 233
+[19-Mar-2019 21:48:58 UTC] PHP Stack trace:
+[19-Mar-2019 21:48:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[19-Mar-2019 21:48:58 UTC] PHP   2. date() /home/ubuntu/workspace/ebank/ebanking.php:233
+[19-Mar-2019 21:48:58 UTC] PHP Warning:  date() expects parameter 2 to be long, string given in /home/ubuntu/workspace/ebank/ebanking.php on line 233
+[19-Mar-2019 21:48:58 UTC] PHP Stack trace:
+[19-Mar-2019 21:48:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[19-Mar-2019 21:48:58 UTC] PHP   2. date() /home/ubuntu/workspace/ebank/ebanking.php:233
+[19-Mar-2019 21:48:58 UTC] PHP Warning:  date() expects parameter 2 to be long, string given in /home/ubuntu/workspace/ebank/ebanking.php on line 233
+[19-Mar-2019 21:48:58 UTC] PHP Stack trace:
+[19-Mar-2019 21:48:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[19-Mar-2019 21:48:58 UTC] PHP   2. date() /home/ubuntu/workspace/ebank/ebanking.php:233
+[19-Mar-2019 22:06:04 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/ubuntu/workspace/ebank/ebanking.php on line 239
+[19-Mar-2019 22:06:04 UTC] PHP Stack trace:
+[19-Mar-2019 22:06:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[19-Mar-2019 22:06:04 UTC] PHP   2. number_format() /home/ubuntu/workspace/ebank/ebanking.php:239
+[19-Mar-2019 22:06:04 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/ubuntu/workspace/ebank/ebanking.php on line 239
+[19-Mar-2019 22:06:04 UTC] PHP Stack trace:
+[19-Mar-2019 22:06:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[19-Mar-2019 22:06:04 UTC] PHP   2. number_format() /home/ubuntu/workspace/ebank/ebanking.php:239
+[19-Mar-2019 22:06:04 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/ubuntu/workspace/ebank/ebanking.php on line 239
+[19-Mar-2019 22:06:04 UTC] PHP Stack trace:
+[19-Mar-2019 22:06:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[19-Mar-2019 22:06:04 UTC] PHP   2. number_format() /home/ubuntu/workspace/ebank/ebanking.php:239
+[19-Mar-2019 22:06:04 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/ubuntu/workspace/ebank/ebanking.php on line 239
+[19-Mar-2019 22:06:04 UTC] PHP Stack trace:
+[19-Mar-2019 22:06:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[19-Mar-2019 22:06:04 UTC] PHP   2. number_format() /home/ubuntu/workspace/ebank/ebanking.php:239
+[19-Mar-2019 22:08:27 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/ebank/ebanking.php on line 238
+[19-Mar-2019 22:09:36 UTC] PHP Parse error:  syntax error, unexpected '$accountID' (T_VARIABLE) in /home/ubuntu/workspace/ebank/ebanking.php on line 229
+[19-Mar-2019 22:09:48 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/ebank/ebanking.php on line 229
+[19-Mar-2019 22:21:38 UTC] PHP Parse error:  syntax error, unexpected 'number_format' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/ebank/ebanking.php on line 261
+[19-Mar-2019 22:45:03 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/ubuntu/workspace/ebank/ebanking.php on line 415
+[19-Mar-2019 22:45:03 UTC] PHP Stack trace:
+[19-Mar-2019 22:45:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[19-Mar-2019 22:45:03 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/ebank/ebanking.php:415
+[19-Mar-2019 22:45:03 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/ebank/ebanking.php on line 417
+[19-Mar-2019 22:45:03 UTC] PHP Stack trace:
+[19-Mar-2019 22:45:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[19-Mar-2019 22:45:03 UTC] PHP   2. mysqli_fetch_row() /home/ubuntu/workspace/ebank/ebanking.php:417
+[19-Mar-2019 22:45:03 UTC] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/ubuntu/workspace/ebank/ebanking.php on line 493
+[19-Mar-2019 22:45:03 UTC] PHP Stack trace:
+[19-Mar-2019 22:45:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[19-Mar-2019 22:45:03 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/ebank/ebanking.php:493
+[19-Mar-2019 23:18:58 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/ebank/ebanking.php on line 539
+[19-Mar-2019 23:19:44 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, string given in /home/ubuntu/workspace/ebank/ebanking.php on line 429
+[19-Mar-2019 23:19:44 UTC] PHP Stack trace:
+[19-Mar-2019 23:19:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[19-Mar-2019 23:19:44 UTC] PHP   2. mysql_fetch_array() /home/ubuntu/workspace/ebank/ebanking.php:429
+[19-Mar-2019 23:19:44 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, string given in /home/ubuntu/workspace/ebank/ebanking.php on line 429
+[19-Mar-2019 23:19:44 UTC] PHP Stack trace:
+[19-Mar-2019 23:19:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[19-Mar-2019 23:19:44 UTC] PHP   2. mysql_fetch_array() /home/ubuntu/workspace/ebank/ebanking.php:429
+[19-Mar-2019 23:19:44 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, string given in /home/ubuntu/workspace/ebank/ebanking.php on line 429
+[19-Mar-2019 23:19:44 UTC] PHP Stack trace:
+[19-Mar-2019 23:19:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[19-Mar-2019 23:19:44 UTC] PHP   2. mysql_fetch_array() /home/ubuntu/workspace/ebank/ebanking.php:429
+[19-Mar-2019 23:19:44 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, string given in /home/ubuntu/workspace/ebank/ebanking.php on line 429
+[19-Mar-2019 23:19:44 UTC] PHP Stack trace:
+[19-Mar-2019 23:19:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[19-Mar-2019 23:19:44 UTC] PHP   2. mysql_fetch_array() /home/ubuntu/workspace/ebank/ebanking.php:429
+[19-Mar-2019 23:43:30 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/ubuntu/workspace/ebank/ebanking.php on line 436
+[19-Mar-2019 23:53:30 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/ebank/ebanking.php on line 417
+[19-Mar-2019 23:53:30 UTC] PHP Stack trace:
+[19-Mar-2019 23:53:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[19-Mar-2019 23:53:30 UTC] PHP   2. mysqli_fetch_row() /home/ubuntu/workspace/ebank/ebanking.php:417
+[20-Mar-2019 00:05:00 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/ubuntu/workspace/ebank/ebanking.php on line 446
+[20-Mar-2019 00:45:10 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/ebank/history.php on line 293
+[20-Mar-2019 01:49:01 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/ebank/history.php on line 211
+[20-Mar-2019 01:49:01 UTC] PHP Stack trace:
+[20-Mar-2019 01:49:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/history.php:0
+[20-Mar-2019 01:49:01 UTC] PHP   2. mysqli_fetch_row() /home/ubuntu/workspace/ebank/history.php:211
+[20-Mar-2019 01:49:50 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/ebank/history.php on line 211
+[20-Mar-2019 01:49:50 UTC] PHP Stack trace:
+[20-Mar-2019 01:49:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/history.php:0
+[20-Mar-2019 01:49:50 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/ebank/history.php:211
+[20-Mar-2019 01:50:04 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/ebank/history.php on line 211
+[20-Mar-2019 01:50:04 UTC] PHP Stack trace:
+[20-Mar-2019 01:50:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/history.php:0
+[20-Mar-2019 01:50:04 UTC] PHP   2. mysqli_fetch_row() /home/ubuntu/workspace/ebank/history.php:211
+[20-Mar-2019 01:51:18 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/ebank/history.php on line 207
+[20-Mar-2019 01:51:18 UTC] PHP Stack trace:
+[20-Mar-2019 01:51:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/history.php:0
+[20-Mar-2019 01:51:18 UTC] PHP   2. mysqli_fetch_row() /home/ubuntu/workspace/ebank/history.php:207
+[20-Mar-2019 01:51:51 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/ebank/history.php on line 208
+[20-Mar-2019 01:51:51 UTC] PHP Stack trace:
+[20-Mar-2019 01:51:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/history.php:0
+[20-Mar-2019 01:51:51 UTC] PHP   2. mysqli_fetch_row() /home/ubuntu/workspace/ebank/history.php:208
+[20-Mar-2019 01:55:36 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/ebank/history.php on line 475
+[20-Mar-2019 01:55:49 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/ebank/history.php on line 208
+[20-Mar-2019 01:55:49 UTC] PHP Stack trace:
+[20-Mar-2019 01:55:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/history.php:0
+[20-Mar-2019 01:55:49 UTC] PHP   2. mysqli_fetch_row() /home/ubuntu/workspace/ebank/history.php:208
+[20-Mar-2019 02:00:42 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/ebank/history.php on line 208
+[20-Mar-2019 02:00:42 UTC] PHP Stack trace:
+[20-Mar-2019 02:00:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/history.php:0
+[20-Mar-2019 02:00:42 UTC] PHP   2. mysqli_fetch_row() /home/ubuntu/workspace/ebank/history.php:208
+[20-Mar-2019 02:11:11 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/ubuntu/workspace/ebank/history.php on line 282
+[20-Mar-2019 02:17:06 UTC] PHP Parse error:  syntax error, unexpected 'd' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/ebank/history.php on line 230
+[20-Mar-2019 02:17:37 UTC] PHP Parse error:  syntax error, unexpected 'date' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/ebank/history.php on line 230
+[20-Mar-2019 02:17:48 UTC] PHP Parse error:  syntax error, unexpected 'date' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/ebank/history.php on line 230
+[20-Mar-2019 02:23:13 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/ubuntu/workspace/ebank/history.php on line 318
+[20-Mar-2019 02:23:13 UTC] PHP Stack trace:
+[20-Mar-2019 02:23:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/history.php:0
+[20-Mar-2019 02:23:13 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/ebank/history.php:318
+[20-Mar-2019 02:23:13 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/ebank/history.php on line 320
+[20-Mar-2019 02:23:13 UTC] PHP Stack trace:
+[20-Mar-2019 02:23:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/history.php:0
+[20-Mar-2019 02:23:13 UTC] PHP   2. mysqli_fetch_row() /home/ubuntu/workspace/ebank/history.php:320
+[20-Mar-2019 02:23:13 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/ubuntu/workspace/ebank/history.php on line 369
+[20-Mar-2019 02:23:13 UTC] PHP Stack trace:
+[20-Mar-2019 02:23:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/history.php:0
+[20-Mar-2019 02:23:13 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/ebank/history.php:369
+[20-Mar-2019 02:23:13 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/ebank/history.php on line 371
+[20-Mar-2019 02:23:13 UTC] PHP Stack trace:
+[20-Mar-2019 02:23:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/history.php:0
+[20-Mar-2019 02:23:13 UTC] PHP   2. mysqli_fetch_row() /home/ubuntu/workspace/ebank/history.php:371
+[20-Mar-2019 02:23:13 UTC] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/ubuntu/workspace/ebank/history.php on line 418
+[20-Mar-2019 02:23:13 UTC] PHP Stack trace:
+[20-Mar-2019 02:23:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/history.php:0
+[20-Mar-2019 02:23:13 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/ebank/history.php:418
+[20-Mar-2019 06:58:54 UTC] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/ubuntu/workspace/ebank/history.php on line 238
+[20-Mar-2019 07:23:22 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/ebank/history.php on line 256
+[20-Mar-2019 07:23:22 UTC] PHP Stack trace:
+[20-Mar-2019 07:23:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/history.php:0
+[20-Mar-2019 07:23:22 UTC] PHP   2. mysqli_fetch_row() /home/ubuntu/workspace/ebank/history.php:256
+[20-Mar-2019 07:24:30 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/ebank/history.php on line 256
+[20-Mar-2019 07:24:30 UTC] PHP Stack trace:
+[20-Mar-2019 07:24:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/history.php:0
+[20-Mar-2019 07:24:30 UTC] PHP   2. mysqli_fetch_row() /home/ubuntu/workspace/ebank/history.php:256
+[20-Mar-2019 07:56:17 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/ebank/history.php on line 322
+[20-Mar-2019 08:01:58 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/ebank/history.php on line 264
+[20-Mar-2019 08:01:58 UTC] PHP Stack trace:
+[20-Mar-2019 08:01:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/history.php:0
+[20-Mar-2019 08:01:58 UTC] PHP   2. mysqli_fetch_row() /home/ubuntu/workspace/ebank/history.php:264
+[22-Mar-2019 13:11:18 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/ebank/statistics.php on line 386
+[22-Mar-2019 13:11:37 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/ebank/statistics.php on line 386
+[22-Mar-2019 13:12:06 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/ebank/statistics.php on line 388
+[22-Mar-2019 13:12:10 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/ebank/statistics.php on line 388
+[22-Mar-2019 13:35:43 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/ebank/statistics.php on line 440
+[22-Mar-2019 13:35:43 UTC] PHP Stack trace:
+[22-Mar-2019 13:35:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/statistics.php:0
+[22-Mar-2019 13:35:43 UTC] PHP   2. mysqli_fetch_row() /home/ubuntu/workspace/ebank/statistics.php:440
+[22-Mar-2019 13:35:48 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/ebank/statistics.php on line 440
+[22-Mar-2019 13:35:48 UTC] PHP Stack trace:
+[22-Mar-2019 13:35:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/statistics.php:0
+[22-Mar-2019 13:35:48 UTC] PHP   2. mysqli_fetch_row() /home/ubuntu/workspace/ebank/statistics.php:440
+[22-Mar-2019 13:36:32 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/ubuntu/workspace/ebank/statistics.php on line 478
+[22-Mar-2019 13:36:32 UTC] PHP Stack trace:
+[22-Mar-2019 13:36:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/statistics.php:0
+[22-Mar-2019 13:36:32 UTC] PHP   2. number_format() /home/ubuntu/workspace/ebank/statistics.php:478
+[22-Mar-2019 13:36:32 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/ubuntu/workspace/ebank/statistics.php on line 478
+[22-Mar-2019 13:36:32 UTC] PHP Stack trace:
+[22-Mar-2019 13:36:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/statistics.php:0
+[22-Mar-2019 13:36:32 UTC] PHP   2. number_format() /home/ubuntu/workspace/ebank/statistics.php:478
+[22-Mar-2019 13:36:32 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/ubuntu/workspace/ebank/statistics.php on line 478
+[22-Mar-2019 13:36:32 UTC] PHP Stack trace:
+[22-Mar-2019 13:36:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/statistics.php:0
+[22-Mar-2019 13:36:32 UTC] PHP   2. number_format() /home/ubuntu/workspace/ebank/statistics.php:478
+[22-Mar-2019 13:36:32 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/ubuntu/workspace/ebank/statistics.php on line 478
+[22-Mar-2019 13:36:32 UTC] PHP Stack trace:
+[22-Mar-2019 13:36:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/statistics.php:0
+[22-Mar-2019 13:36:32 UTC] PHP   2. number_format() /home/ubuntu/workspace/ebank/statistics.php:478
+[22-Mar-2019 13:36:32 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/ubuntu/workspace/ebank/statistics.php on line 478
+[22-Mar-2019 13:36:32 UTC] PHP Stack trace:
+[22-Mar-2019 13:36:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/statistics.php:0
+[22-Mar-2019 13:36:32 UTC] PHP   2. number_format() /home/ubuntu/workspace/ebank/statistics.php:478
+[22-Mar-2019 13:36:32 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/ubuntu/workspace/ebank/statistics.php on line 478
+[22-Mar-2019 13:36:32 UTC] PHP Stack trace:
+[22-Mar-2019 13:36:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/statistics.php:0
+[22-Mar-2019 13:36:32 UTC] PHP   2. number_format() /home/ubuntu/workspace/ebank/statistics.php:478
+[22-Mar-2019 13:36:32 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/ubuntu/workspace/ebank/statistics.php on line 478
+[22-Mar-2019 13:36:32 UTC] PHP Stack trace:
+[22-Mar-2019 13:36:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/statistics.php:0
+[22-Mar-2019 13:36:32 UTC] PHP   2. number_format() /home/ubuntu/workspace/ebank/statistics.php:478
+[22-Mar-2019 13:36:32 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/ubuntu/workspace/ebank/statistics.php on line 478
+[22-Mar-2019 13:36:32 UTC] PHP Stack trace:
+[22-Mar-2019 13:36:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/statistics.php:0
+[22-Mar-2019 13:36:32 UTC] PHP   2. number_format() /home/ubuntu/workspace/ebank/statistics.php:478
+[22-Mar-2019 13:36:32 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/ubuntu/workspace/ebank/statistics.php on line 478
+[22-Mar-2019 13:36:32 UTC] PHP Stack trace:
+[22-Mar-2019 13:36:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/statistics.php:0
+[22-Mar-2019 13:36:32 UTC] PHP   2. number_format() /home/ubuntu/workspace/ebank/statistics.php:478
+[22-Mar-2019 13:36:32 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/ubuntu/workspace/ebank/statistics.php on line 478
+[22-Mar-2019 13:36:32 UTC] PHP Stack trace:
+[22-Mar-2019 13:36:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/statistics.php:0
+[22-Mar-2019 13:36:32 UTC] PHP   2. number_format() /home/ubuntu/workspace/ebank/statistics.php:478
+[22-Mar-2019 13:36:32 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/ubuntu/workspace/ebank/statistics.php on line 478
+[22-Mar-2019 13:36:32 UTC] PHP Stack trace:
+[22-Mar-2019 13:36:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/statistics.php:0
+[22-Mar-2019 13:36:32 UTC] PHP   2. number_format() /home/ubuntu/workspace/ebank/statistics.php:478
+[22-Mar-2019 13:36:32 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/ubuntu/workspace/ebank/statistics.php on line 478
+[22-Mar-2019 13:36:32 UTC] PHP Stack trace:
+[22-Mar-2019 13:36:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/statistics.php:0
+[22-Mar-2019 13:36:32 UTC] PHP   2. number_format() /home/ubuntu/workspace/ebank/statistics.php:478
+[22-Mar-2019 13:36:32 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/ubuntu/workspace/ebank/statistics.php on line 478
+[22-Mar-2019 13:36:32 UTC] PHP Stack trace:
+[22-Mar-2019 13:36:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/statistics.php:0
+[22-Mar-2019 13:36:32 UTC] PHP   2. number_format() /home/ubuntu/workspace/ebank/statistics.php:478
+[22-Mar-2019 13:36:32 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/ubuntu/workspace/ebank/statistics.php on line 478
+[22-Mar-2019 13:36:32 UTC] PHP Stack trace:
+[22-Mar-2019 13:36:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/statistics.php:0
+[22-Mar-2019 13:36:32 UTC] PHP   2. number_format() /home/ubuntu/workspace/ebank/statistics.php:478
+[22-Mar-2019 13:36:32 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/ubuntu/workspace/ebank/statistics.php on line 478
+[22-Mar-2019 13:36:32 UTC] PHP Stack trace:
+[22-Mar-2019 13:36:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/statistics.php:0
+[22-Mar-2019 13:36:32 UTC] PHP   2. number_format() /home/ubuntu/workspace/ebank/statistics.php:478
+[22-Mar-2019 13:36:32 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/ubuntu/workspace/ebank/statistics.php on line 478
+[22-Mar-2019 13:36:32 UTC] PHP Stack trace:
+[22-Mar-2019 13:36:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/statistics.php:0
+[22-Mar-2019 13:36:32 UTC] PHP   2. number_format() /home/ubuntu/workspace/ebank/statistics.php:478
+[22-Mar-2019 13:36:32 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/ubuntu/workspace/ebank/statistics.php on line 478
+[22-Mar-2019 13:36:32 UTC] PHP Stack trace:
+[22-Mar-2019 13:36:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/statistics.php:0
+[22-Mar-2019 13:36:32 UTC] PHP   2. number_format() /home/ubuntu/workspace/ebank/statistics.php:478
+[22-Mar-2019 13:36:32 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/ubuntu/workspace/ebank/statistics.php on line 478
+[22-Mar-2019 13:36:32 UTC] PHP Stack trace:
+[22-Mar-2019 13:36:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/statistics.php:0
+[22-Mar-2019 13:36:32 UTC] PHP   2. number_format() /home/ubuntu/workspace/ebank/statistics.php:478
+[23-Mar-2019 13:50:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/ebank/statistics.php:108) in /home/ubuntu/workspace/ebank/statistics.php on line 492
+[23-Mar-2019 13:50:44 UTC] PHP Stack trace:
+[23-Mar-2019 13:50:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/statistics.php:0
+[23-Mar-2019 13:50:44 UTC] PHP   2. header() /home/ubuntu/workspace/ebank/statistics.php:492
+[23-Mar-2019 14:09:31 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/ebank/statistics.php on line 813
+[23-Mar-2019 14:32:27 UTC] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/ubuntu/workspace/ebank/statistics.php on line 565
+[23-Mar-2019 14:53:16 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/ebank/statistics.php on line 609
+[23-Mar-2019 16:43:00 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/ebank/ebanking.php on line 461
+[23-Mar-2019 16:43:00 UTC] PHP Stack trace:
+[23-Mar-2019 16:43:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[23-Mar-2019 16:43:00 UTC] PHP   2. mysqli_fetch_row() /home/ubuntu/workspace/ebank/ebanking.php:461
+[23-Mar-2019 16:44:26 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/ebank/ebanking.php on line 466
+[23-Mar-2019 16:44:26 UTC] PHP Stack trace:
+[23-Mar-2019 16:44:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[23-Mar-2019 16:44:26 UTC] PHP   2. mysqli_fetch_row() /home/ubuntu/workspace/ebank/ebanking.php:466
+[23-Mar-2019 16:46:10 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/ebank/ebanking.php on line 466
+[23-Mar-2019 16:46:10 UTC] PHP Stack trace:
+[23-Mar-2019 16:46:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/ebank/ebanking.php:0
+[23-Mar-2019 16:46:10 UTC] PHP   2. mysqli_fetch_row() /home/ubuntu/workspace/ebank/ebanking.php:466
+[23-Mar-2019 16:54:36 UTC] PHP Parse error:  syntax error, unexpected '`' in /home/ubuntu/workspace/ebank/ebanking.php on line 420

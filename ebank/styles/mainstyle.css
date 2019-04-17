@@ -1,0 +1,833 @@
+/**** Έναρξη του css κώδικα. ****/
+/**** Σημείωση: κάποιες κλάσεις και ids που μοιράζονται τους ίδιους κανόνες στο css, αν και ανήκουν σε διαφορετικές σελίδες,
+      έχουν ομαδοποιηθεί για καλύτερη οπτικοποίηση του κώδικα. ****/
+
+
+/* Γενικές οδηγίες για το <body>. Δημιουργία css για divs που χρησιμοποιούνται ως κενοί χώροι 
+ * για την καλύτερη στοίχιση διάφορων elements στην ιστοσελίδα & των οριζόντιων γραμμών */
+body {
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Didact Gothic', Tahoma, Geneva, sans-serif;
+
+}
+
+.clear {
+
+    clear:both;
+
+}
+
+.smallspace {
+
+    height: 17px;
+
+}
+
+.space {
+
+    height: 35px;
+
+}
+
+.largespace {
+
+    height: 305px;
+
+}
+
+hr {
+
+    color: #999999;
+
+}
+/**** CSS για την κεφαλίδα ****/
+#header {
+
+    width: 1000px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+#logo {
+
+    width: 350px;
+
+}
+
+/* Το navigation αφορά τη μορφοποίηση όλου το μενού που βρίσκεται στην κεφαλίδα */
+#navigation {
+
+    background-color: #444;
+    width: 100%;
+    position: relative;
+    display: flex;
+
+}
+
+/* Στην ουσία έχουμε divs τα οποία παίζουν τον οπτικό ρόλο των κουμπιών και λειτουργούν με υπερσυνδέσμους.
+ * Κάθε "κουμπί" το μενού έχει την παρακάτω μορφοποίηση */
+.menu {
+
+    width: 1000px;
+    margin: 0 auto;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    vertical-align: text-bottom;
+    color: white; 
+    font-weight: bold;
+    border-left: 2px solid white;
+
+}
+
+/* Το επιλεγμένο "κουμπί" του μενού έχει ένα πιο πορτοκαλοκόκκινο χρώμα σε σχέση με τα υπόλοιπα για να ξεχωρίζει */
+.menu-selected {
+
+    background-color: #08b4c3;
+    border-left: 0px;
+
+}
+
+.menu-selected2 {
+
+    border-left: 2px solid white;
+
+}
+
+/* Μορφοποίηση των υπερσυνδέσμων του μενού, ώστε να μην είναι μπλε και υπογραμμισμένοι όπως είναι η στάνταρ html μορφοποίηση*/
+.menu a {
+
+    color: white; 
+    text-decoration: none;
+
+}
+
+/* Όταν περνάμε το ποντίκι μας πάνω από κάποιο "κουμπί" του μενού (hover effect), θέλουμε να εμφανίζεται 
+ * μια υπογράμμιση για να ξέρουμε που δείχνει το ποντίκι μας. */ 
+.menu a:hover {
+
+    border-bottom: 3px solid white;
+
+}
+
+/* Μορφοποίηση του div που περιέχει τις επιλογές "Βοήθεια", "Αναζήτηση", "Χρήστης" & "Αποσύνδεση"*/
+#header-container {
+
+    position: relative;
+    float: right;
+
+}
+
+/**** CSS για το Container της σελίδας index.php ****/
+/* CSS της σελίδας index.php */
+#container {
+
+    width: 1000px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 0px solid red;
+
+
+}
+
+#ads {
+
+    width: 475px;
+    height: 300px;
+    position: relative;
+    float: left;
+
+}
+
+.slideshow {
+
+    display: none;
+
+}
+
+#login {
+
+    width: 425px;
+    height: 246px;
+    border: 2px solid #999999; 
+    position: relative;
+    float: right;
+    background-color: #f2f2f2 ;
+
+}
+
+#submit, #history, #trstion_submit{
+
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #000000;
+    color: white;
+    border-style: none;
+
+}
+
+#submit:hover, #history:hover, #trstion_submit:hover{
+
+    background-color: #08b4c3;
+
+}
+
+#forgot {
+
+    font-size: 14px;
+
+}
+
+#online-reg {
+    
+    width: 425px;
+    height: 40px;
+    background-color: #08b4c3;
+    border: 2px solid #08b4c3; 
+    position: relative;
+    float: right;
+    margin-top: 6px;
+    color: white; 
+}
+
+#online-reg a {
+    
+    text-decoration: none;
+    color: white;
+}
+
+ #online-reg:hover{
+
+    background-color: black;
+    border: 2px solid black;
+
+}
+
+
+/* Div ανακοινώσεων - ρύθμιση τίτλου και υποστηρικτικών divs "Τίτλος Ανακοίνωσης 1", "Τίτλος Ανακοίνωσης 2" &" Τίτλος Ανακοίνωσης 3" */ 
+#announce-head {
+
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* Πλάτος όλου του div που φιλοξενεί τις ανακοινώσεις*/
+#announcements {
+
+    position: relative;
+    display: flex;
+    width: 100%;
+
+}
+
+/* Κάθε ανακοίνωση έχει το δικό της κουτί. Δημιούργησα μια κλάση, που εφαρμόζεται και στα 3 divs, γιατί έχουν τις ίδιες ιδιότητες */
+.announbox {
+
+    width: 400px;
+    height: 200px;
+
+}
+
+/* Ομοίως, οι εικόνες και το κείμενο έχουν τις ίδιες ιδιότητες, άρα κι εδώ φτιάξαμε κλάσεις. */
+.announ-img {
+
+    width: 130px;
+    height: 180px;
+    position: relative;
+    float: left;
+    padding-right: 10px;
+}
+
+.textbox {
+
+    padding-right: 10px;
+
+}
+
+/* CSS της σελίδας ebanking.php */
+#style-container {
+
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+
+}
+
+/* Μορφοποίηση του πλαισίου που περιέχει τους λογαριασμούς & τις κάρτες */
+#accards {
+
+    width: 675px;
+    margin-right: 10px;
+
+}
+
+.acctitle .regtitle{
+
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+
+}
+
+.regtitle-extra {
+    
+    text-align: center; 
+    font-weight: bold; 
+    font-size: 26px; 
+    color: #08b4c3;
+    
+}
+
+.regtitle-delete {
+    
+    color: #FF0000;
+    
+}
+
+/* Βλέπουμε ότι τα πλαίσια των λογαρριασμών και των καρτών είναι ακριβώς τα ίδια όσον αφορά 
+ * τη μορφοποίηση. Γι' αυτό χρησιμοποιούμε την κλάση infobox, καθώς και σχετικές κλάσεις που έχουν
+ * να κάνουν με τη μορφοποίηση του κειμένου που περιέχουν. */
+.infobox {
+
+    width: 655px;
+    border: 2px solid #999999;
+    padding: 10px;
+
+}
+
+.accard-name, .accard-text, .accard-amount {
+
+    font-size: 18px;
+
+}
+
+.accard-debit {
+
+    color: #FF0000;
+
+}
+
+.accard-credit {
+
+    color: #009933;
+
+}
+
+/* Μορφοποίηση του πλαισίου που περιέχει τις πρόσφατες συναλλαγές */
+#recenttrans {
+
+    width: 300px;
+    margin-left: 10px;
+
+}
+
+/* Για ομοιομορφία, δημιουργούμε μια κλάση που να μοιάζει με την αντίστοιχη των λογαριασμών και των καρτών */
+.infobox2 {
+
+    width: 280px;
+    border: 2px solid #999999;
+    padding: 10px;
+
+}
+
+/* CSS της σελίδας transfer.php */
+#transfer-mainbox {
+
+    width: 750px;
+    margin-right: 10px;
+
+}
+
+.transfer-form .registration-form {
+
+    width: 700px;
+    height: 320px;
+    border: 2px solid #999999;
+    padding: 10px;
+
+}
+
+.transfer-labels .personal-labels{
+
+    font-size: 18px;
+
+}
+
+.transfer-inputs .personal-info{
+
+    font-size: 15px;
+}
+
+.star {
+
+    color: #FF0000;
+    font-size: 18px;
+}
+
+/**** CSS για το υποσέλιδο ****/            
+#footer {
+
+    width: 1000px;
+    height: 70px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    display: flex;
+    top: 10px;
+
+}
+
+/* Μορφοποίηση για το div με id="mail". Θέλω να πιάνει κάτι λιγότερο από την 1η ανακοίνωση, γιατί θέλω να χωρίσω 
+ * το υποσέλιδο σε άνισα μέρη, ώστε να ταιριάζει με το mockup */
+#mail {
+
+    width: 250px;
+    font-size: 18px;
+
+}
+
+/* Αυτό είναι το διαχωριστικό μεταξύ του mail div & του phones div */
+.seperator {
+
+    border-right: 2px solid #999999;
+
+}
+
+/* Μορφοποίηση για το div με id="phones" που περιέχει τα τηλέφωνα. */
+#phones {
+
+    padding-left: 10px; 
+    width: 450px;
+    font-size: 18px;
+
+}
+
+/* Μορφοποίηση για το div με id="terms-of-use" που περιέχει τα links με τους όρους χρήσης και την πολιτική απορρήτου. */
+#terms-of-use {
+
+    padding-left: 15px; 
+    padding-right: 15px;
+    width: 300px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 18px;
+
+}
+
+/* CSS της σελίδας user.php */
+#change_submit, #delete_submit, #account_submit{
+    
+    width: 198px; 
+    height: 35px; 
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border-style: none;
+    
+}
+
+#change_submit, #account_submit{
+    
+    background-color: #08b4c3;
+    
+}
+
+#delete_submit{
+    
+    background-color: #FF0000;
+
+}
+
+#nolink a{
+    
+    text-decoration: none !important;
+    
+}
+
+#change_submit:hover, #delete_submit:hover, #account_submit:hover{
+    
+    background-color: #000000;
+    
+}
+
+.input-readonly{
+    
+    background-color: #f2f3f4 ;
+}
+
+/* CSS Modal Διαγραφής Χρήστη */
+.modal {
+    
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+    
+}
+
+.modal-content {
+    
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding-top: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    border: 1px solid #888;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+    
+}
+
+.close {
+    
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    
+}
+
+@-webkit-keyframes animatetop {
+    
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+    
+}
+
+@keyframes animatetop {
+    
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+    
+}
+
+.close:hover, .close:focus {
+    
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+/* CSS της σελίδας accounts.php */
+.add-account {
+    
+    width: 444px;
+    height: 100px;
+    border: 2px solid #08b4c3;
+    background-color: #08b4c3;
+    margin-top: 65px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    
+}
+
+.add-account:hover {
+    
+    opacity: 1;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+        
+    
+}
+
+.account-card {
+    
+    width: 200px;
+    height: 200px;
+    border: 2px solid #08b4c3;
+    margin-top: 65px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    transition: transform .2s
+
+}
+
+.account-card:hover {
+    
+    transform: scale(1.1);
+
+}
+
+.card-title {
+    
+    width: 100%;
+    height: 90px;
+    line-height: 90px;
+    background-color: #08b4c3;
+    color: white;
+    font-size: 1.8em;
+    text-align: center;
+    
+}
+
+.card-descr {
+    
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.2em;
+    text-align: center;
+    color: #444444;
+    
+}
+
+.card-iban {
+    
+    display: none;
+    
+}
+
+.card-amount-credit, .card-amount-debit {
+    
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.1em;
+    text-align: center;
+
+}
+
+.card-amount-credit {
+    
+    color: #009933;
+
+}
+
+.card-amount-debit {
+    
+    color: #FF0000;
+
+}
+
+.add-account-title {
+    
+    width: 100%;
+    color: white;
+    font-size: 1.8em;
+    text-align: center;
+
+}
+
+.lg {
+    
+    font-size: 2.5em;
+    padding: 10px;
+    
+}
+
+.remove-account {
+    
+    width: 444px;
+    height: 100px;
+    border: 2px solid #FF0000;
+    background-color: #FF0000;
+    margin-top: 65px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    
+}
+
+.remove-account:hover {
+    
+    opacity: 1;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+        
+    
+}
+
+.remove-account-title {
+    
+    width: 100%;
+    color: white;
+    font-size: 1.8em;
+    text-align: center;
+
+}
+
+/* CSS της σελίδας removeaccount.php */
+#delaccount_submit{
+    
+    width: 100px; 
+    height: 70px; 
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border-style: none;
+    
+}
+
+#delaccount_submit{
+    
+    background-color: #FF0000;
+
+}
+
+#accountdelete-mainbox {
+
+    width: 100%;
+
+}
+
+.delaccount-table {
+    
+    width: 100%; 
+    border: 1px solid #99A3A4; 
+    border-radius: 5px; 
+    background-color:  #E5E8E8;
+    
+}
+
+/* CSS της σελίδας history.php */
+.infogrid {
+
+    width: 1000px;
+
+}
+
+.payments-table {
+    
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    box-shadow: 7px 7px 7px 7px #CCCCCC;
+    border: 1px solid white;
+    border-radius: 5px;
+    
+}
+
+.payments-table-header {
+
+    color: white;
+    background-color: #08b4c3;
+    font-weight: normal;
+    
+}
+
+.payments-table-oddlines {
+    
+    color: black;
+    background-color: #FFFFFF;
+    text-align: left;
+}
+
+.payments-table-evenlines {
+    
+    color: black;
+    background-color: lightgray;
+    text-align: left;
+}
+
+/* CSS της σελίδας statistics.php */
+
+ /* Μορφοποίηση των κουμπιών που χρησιμοποιούνται για να ανοίγουν και να κλείνουν το accordion panel */
+.section {
+    
+    background-color: #eee;
+    color: #08b4c3;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 18px;
+
+}
+
+
+.panel {
+    
+    padding: 0 18px;
+    background-color: white;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+
+} 
+
+#stats-mainbox {
+
+    width: 1050px;
+
+}
+
+.overview {
+
+    height: 100px; 
+    padding-top: 20px; 
+    padding-left: 20px; 
+    padding-right: 20px;
+    
+}
+
+.overview-table {
+    
+    width: 100%; 
+    height: 100%;
+    
+}
+
+.overview-title {
+    
+    font-size: 24px;
+    font-weight: bolder;
+    color: #08b4c3;
+
+}
+
+.overview-caption {
+    
+    font-weight: bolder;
+    font-size: 24px;
+
+}
+
+.overview-sum {
+    
+    text-align: left; 
+    font-size:28px; 
+    font-weight: bolder; 
+    color: #009933;
+    
+}
+
+#accn_submit{
+
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #000000;
+    color: white;
+    border-style: none;
+
+}
+
+#accn_submit:hover{
+
+    background-color: #08b4c3;
+
+}
